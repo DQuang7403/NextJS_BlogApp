@@ -1,0 +1,12 @@
+.title {
+  font-size: 1.5rem;
+  padding: 16px;
+  background-color: coral;
+  border-radius: 16px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.content {
+  display: flex;
+  gap: 48px;
+}

@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.wrapper {
+  background-color: var(--soft-bg);
+  padding: 130px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.socialButton {
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--text-color);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--soft-text-color);
+}
+
+.socialButton:hover {
+  background-color: var(--soft-text-color);
+  color: var(--text-reverse-color);
+}
+.noAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.noAccountLink {
+  color: #53c38b;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.noAccountLink:hover {
+  color: #4cb07e;
+}
+.divider{
+  color: var(--soft-text-color);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid var(--soft-text-color);
+  background-color: var(--soft-bg);
+  color: var(--text-color);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--soft-text-color);
+  background-color: #53c38b;
+  color: var(--text-color);
+  font-weight: 500;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4cb07e;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding: 30px;
+  }
+
+  .socialButton {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

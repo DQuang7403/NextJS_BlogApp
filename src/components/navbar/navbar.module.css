@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.logo {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.links {
+  display: flex;
+  flex: 1;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    font-size: 1.25rem;
+  }
+  .links {
+    font-size: 1rem;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .links {
+    justify-content: flex-end;
+  }
+  .link {
+    display: none;
+  }
+}

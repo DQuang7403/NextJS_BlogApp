@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Screenshots
+Some screenshots showcasing the UI of this project:
+1. **Home Page**:
+![Home Page](overview/Home_Page.png)
+
+2. **Blog Post**:
+![Blog Post](overview/Blog_Post.png)
+
+3. **Add New Blog**:
+![New Blog](overview/Add_New_Blog.png)
 
 ## Getting Started
 
@@ -13,6 +22,8 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Screenshots
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
